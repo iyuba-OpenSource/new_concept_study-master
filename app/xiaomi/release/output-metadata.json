@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.jn.iyuba.succinct",
+  "variantName": "xiaomiRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 6,
+      "versionName": "1.5.27",
+      "outputFile": "[xiaomi]-release-[1.5.27]-[6]-2023-05-29.apk"
+    }
+  ],
+  "elementType": "File"
+}

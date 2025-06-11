@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Concept_simple" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/mColorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mColorPrimary</item>
+        <item name="colorSecondaryVariant">@color/mColorPrimary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="colorAccent">@color/mColorPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+
+    <style name="Theme.WELCOME" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+
+        <!--        <item name="android:windowBackground">@drawable/bt_welcome</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/mColorPrimary</item>
+
+    </style>
+
+
+
+    <!--奖励的弹窗-->
+    <style name="RewardTheme" parent="Theme.Material3.Light.Dialog">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+
+    <style name="VipTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="colorPrimary">@color/mColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/mColorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mColorPrimary</item>
+        <item name="colorSecondaryVariant">@color/mColorPrimary</item>
+
+        <item name="colorAccent">@color/mColorPrimary</item>
+
+    </style>
+
+
+    <style name="wxLoginTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/mColorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--配音左边的精度条-->
+    <style name="mProgress_horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal
+        </item><!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">15dip</item>
+    </style>
+
+    <!--配音右边的精度条-->
+    <style name="mProgress_horizontal_right">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_right
+        </item><!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">15dip</item>
+        <item name="android:maxHeight">15dip</item>
+    </style>
+
+
+    <!--选择单词控件style-->
+    <declare-styleable name="SelectWordTextView">
+        <attr name="selectColor" format="color" />
+    </declare-styleable>
+</resources>

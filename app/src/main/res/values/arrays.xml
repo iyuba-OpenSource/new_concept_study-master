@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--口语圈分享-->
+    <string-array name="share_platform_icons_personal">
+<!--        <item>@drawable/iyu_share_ic_qq</item>-->
+<!--        <item>@drawable/iyu_share_ic_qzone</item>-->
+<!--        <item>@drawable/iyu_share_ic_sinaweibo</item>-->
+        <item>@drawable/iyu_share_ic_wechat</item>
+        <item>@drawable/iyu_share_ic_wechatmoments</item>
+<!--        <item>@drawable/iyu_share_ic_wechatfavorite</item>-->
+    </string-array>
+    <string-array name="share_platform_names_personal">
+<!--        <item>@string/share_platform_qq_personal</item>-->
+<!--        <item>@string/share_platform_qzone</item>-->
+<!--        <item>@string/share_platform_sina_personal</item>-->
+        <item>@string/share_platform_wechat_personal</item>
+        <item>@string/share_platform_wechatmoment_personal</item>
+<!--        <item>@string/share_platform_wechatfavor_personal</item>-->
+    </string-array>
+
+
+    <!--小视频分类-->
+    <string-array name="headline_video_category_names">
+        <item>少儿</item>
+        <item>小学</item>
+        <item>初中</item>
+    </string-array>
+    <string-array name="headline_video_category_codes">
+        <item>@integer/headline_child</item>
+        <item>@integer/headline_primary</item>
+        <item>@integer/headline_junior</item>
+    </string-array>
+
+    <integer name="headline_child">23</integer>
+    <integer name="headline_primary">24</integer>
+    <integer name="headline_junior">25</integer>
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@color/imooc_main_color</color>
+    <color name="colorPrimary">@color/imooc_main_color</color>
+    <color name="colorPrimaryDark">@color/imooc_main_color</color>
+    <color name="imooc_course_bg_focused">#fd8b77</color>
+    <color name="imooc_course_bg_normal">#e6e6e6</color>
+    <color name="imooc_course_content_title">#4d5d5f</color>
+    <color name="imooc_main_color">@color/mColorPrimary</color>
+    <string name="imooc_accomplish">Accomplish</string>
+    <string name="imooc_all_data_fetched">All data fetched!</string>
+    <string name="imooc_brev_download">Brev Download</string>
+    <string name="imooc_brev_listen">Brev Listen</string>
+    <string name="imooc_cancel">Cancel</string>
+    <string name="imooc_check_network">Network disconnected, please try check your network setting.</string>
+    <string name="imooc_comment_hint">Write comment here!</string>
+    <string name="imooc_content_slogan" translatable="false">中国最具影响力的在线教育平台——爱语吧</string>
+    <string name="imooc_course_comment">Comment</string>
+    <string name="imooc_course_desc">Introduction</string>
+    <string name="imooc_course_file_error">Course File Error!</string>
+    <string name="imooc_course_introduction">Introduction:</string>
+    <string name="imooc_course_list">Catalog</string>
+    <string name="imooc_course_pdf">PDF</string>
+    <string name="imooc_course_suit_people">Suit people:</string>
+    <string name="imooc_course_teacher_introduction">Teacher:</string>
+    <string name="imooc_course_view_counts_info">%1$d viewed</string>
+    <string name="imooc_courseware">Courseware:\n%1$s</string>
+    <string name="imooc_download">Download</string>
+    <string name="imooc_exercise">Exercise</string>
+    <string name="imooc_faq">FAQ</string>
+    <string name="imooc_fetch_data_fail">Fetching data failed, please try again later!</string>
+    <string name="imooc_give_mark">Mark</string>
+    <string name="imooc_is_loading">Loading…</string>
+    <string name="imooc_later">Later</string>
+    <string name="imooc_load_accomplished">Load accomplished!</string>
+    <string name="imooc_load_courseware_fail">Load courseware failed, please try later!</string>
+    <string name="imooc_load_failed">Load failed, please try later!</string>
+    <string name="imooc_load_type_failed">Load type failed, please try later!</string>
+    <string name="imooc_loading">Loading…</string>
+    <string name="imooc_login_hint">Please sign in your account!</string>
+    <string name="imooc_micro_class_download">Micro Class Download</string>
+    <string name="imooc_my_mark">My mark:</string>
+    <string name="imooc_no_comment">No comment!</string>
+    <string name="imooc_no_data">No data!</string>
+    <string name="imooc_please_check_network">Please check your network!</string>
+    <string name="imooc_point_info">%1$.1f point</string>
+    <string name="imooc_purchase_course">Purchase</string>
+    <string name="imooc_purchase_error">Error when purchasing, please try later.</string>
+    <string name="imooc_purchase_fail_hint">Purchase failed for: %1$s\nplease buy in the vip center!</string>
+    <string name="imooc_purchase_iyubi">Pay Iyubi</string>
+    <string name="imooc_purchase_message">You should pay %1$d Iyubi for this course, or being golden VIP to learn all courses.</string>
+    <string name="imooc_purchase_succeed_hint">Purchase succeed! Your Iyubi balance: %1$s</string>
+    <string name="imooc_purchase_vip">Purchase VIP</string>
+    <string name="imooc_qq_consultation">QQ Consult</string>
+    <string name="imooc_qq_not_installed">QQ client is not installed on your device</string>
+    <string name="imooc_rating_hint">Please rating the lesson!</string>
+    <string name="imooc_refresh_courseware_fail">Refresh courseware failed, please try later!</string>
+    <string name="imooc_refresh_courseware_succeed">Refresh courseware succeed!</string>
+    <string name="imooc_send_fail">Send fail, please try again later!</string>
+    <string name="imooc_send_succeed">Send succeed!</string>
+    <string name="imooc_study_input_comment">Please input comment</string>
+    <string name="imooc_study_login_hint">Please sign in!</string>
+    <string name="imooc_upload_add_score">credit+%1$d</string>
+    <string name="imooc_upload_failed">uploading fail</string>
+    <string name="imooc_upload_success">uploading succeed</string>
+
+    <style name="ImoocRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#cccccc</item>
+        <item name="colorControlActivated">@color/imooc_main_color</item>
+    </style>
+
+    <style name="ImoocTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ImoocToolbar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ImoocToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
